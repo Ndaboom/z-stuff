@@ -1,0 +1,136 @@
+
+        .bg {
+            padding: .1rem 1rem;
+        }
+        .btn-zung{
+            color: #4a4a4a;
+            border-color: transparent;
+            font-weight: 700;
+            transition: all .5s;
+        }
+        .btn-zung:hover{
+            background-color: #f0f0f0;
+            border-color: transparent;
+        }
+        .btn-zungposts{
+            border-color: transparent;
+            border-radius: 5rem;
+            transition: all 0.5s;
+        }
+        .btn-zungposts:hover{
+            background-color: rgba(0,0,0,.05);
+            border-color: transparent;
+        }
+        .h7{
+            font-size: 0.87rem;
+            font-weight: 600;
+        }
+        .h8{
+            font-size: 0.78rem;
+            font-weight: 600;
+        }
+
+        .offset-fixed{
+            position: fixed;
+            top: 0;
+            bottom: 0;
+        }
+        .f-left{
+            left: 0
+        }
+        .f-right{
+            right: 0;
+        }
+        .side-left{
+            margin-top: 5rem;
+            margin-left: 1.07rem;
+            width: 290px;
+            height: 400px;
+        }
+        .side-right{
+            margin-top: 4rem;
+            overflow-x: hidden;
+            overflow-y: auto;
+            height: calc(100vh - 7.5rem);
+        }
+        .img-circle{
+            width: 5rem;
+            height: 3.1rem;
+            background-color: #f7f7f7;
+            border-radius: 50%;
+            border: 1px solid #dddddd;
+        }
+        .online{
+            width: 0.5rem;
+            height: 0.5rem;
+            background-color: green;
+            border-radius: 50%;
+        }
+        .friend-state{
+            padding: 0.57rem 0.3rem;
+            cursor: pointer;
+            transition: all 0.1s;
+        }
+        .friend-state:hover{
+            background-color: #f7f7f7;
+        }
+
+        .macarte{
+            position: relative;
+
+        }
+         #dlgbox{
+            position: fixed;
+            width: 480px;
+            z-index: 9999;
+            border-radius: 10px;
+            background-color: #7c7d7e;
+         }
+          #dlgheader{
+             background-color:  #6d84db4;
+             color: white;
+             font_size:20px;
+             padding: 10px;
+             margin:10px 10px 0px 10px;  
+          }
+        
+        .coverPic img{
+            height: 300px;
+            top:0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+        }
+       .coverPic img:hover{
+                                                 
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+        }
+
+        .postCard{
+            margin-top: 0px;
+            width: 670px;
+        }
+        .onlineUsersCard{
+            margin-top: 0px;
+            width: 670px;
+        }
+
+        .pubCard{
+            margin-top: 0px;
+            width: 670px; 
+        }
+
+        .questionsDoneCard{
+            margin-top: 0px;
+            width: 670px; 
+        }
+       @media (max-width:1080px){
+           .f-right{
+            display: none;
+           }
+          
+           .f-left{
+            display: none;
+           }
+        }

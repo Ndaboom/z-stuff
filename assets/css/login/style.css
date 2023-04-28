@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('../homebackground.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+min-height: 400px;
+margin-top: auto;
+margin-bottom: auto;
+width: 490px;
+background-color: #FFF;
+}
+
+.input-group-prepend span{
+width: 40px;
+background-color: #0098E8;
+color: white;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+width: 100px;
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: white;
+background-color: #0098E8;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+ #login_btn2{
+   display: none;
+   visibility: hidden;
+ }
+
+
+ @media (max-width:780px){
+           .card{
+             height:345px;
+             margin-top: auto;
+             margin-bottom: auto;
+             width: 345px;
+             background-color: #FFF;  
+           }
+           
+           #login_btn2{
+            display: block;
+            visibility: visible; 
+           }
+           
+           #login_btn1{
+             display: none;
+             visibility: hidden;   
+           }
+        }

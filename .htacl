@@ -1,0 +1,4 @@
+AuthUserFile "/services/users/zstorage6p1/majorluvale/www/zungvi.com/.htaclu"
+AuthName Members
+AuthType Basic
+Require valid-user

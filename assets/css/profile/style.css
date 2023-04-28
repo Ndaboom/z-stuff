@@ -1,0 +1,204 @@
+        .chat_message_area{
+            position:relative;
+            width:100%;
+            height: auto;
+            border: 1px solid #CCC;
+            border-radius: 3px;
+        }
+        #group_chat_message
+        {
+            width: 100%;
+            height: auto;
+            min-height: 80px;
+            overflow: auto;
+            padding: 6px 24px 6px 12px;
+        }
+        .image_upload
+        {
+            position:absolute;
+            top:3px;
+            right: 3px;
+        }
+        .image_upload > form > input
+        {
+            display: none;
+        }
+
+        .image_upload img
+        {
+          width: 24px;
+          cursor: pointer;  
+        }
+
+        .img_cont
+        {
+            position: relative;
+            height: 70px;
+            width: 70px;
+        }
+        .user_img
+        {
+            height: 70px;
+            width: 70px;
+            border:1.5px solid #f5f6fa;
+        
+        }
+        .bg {
+            padding: .1rem 1rem;
+        }
+        .btn-zung{
+            border-color: transparent;
+            font-weight: 700;
+            transition: all .5s;
+        }
+        .btn-zung:hover{
+            background-color: #f0f0f0;
+            border-color: transparent;
+        }
+        .btn-zungposts{
+            border-color: transparent;
+            border-radius: 5rem;
+            transition: all 0.5s;
+        }
+        .btn-zungposts:hover{
+            background-color: rgba(0,0,0,.05);
+            border-color: transparent;
+        }
+        .h7{
+            font-size: 0.87rem;
+            font-weight: 600;
+        }
+        .h8{
+            font-size: 0.78rem;
+            font-weight: 600;
+        }
+
+        .offset-fixed{
+            position: fixed;
+            top: 0;
+            bottom: 0;
+        }
+        .f-left{
+            left: 0
+        }
+        .f-right{
+            right: 0;
+        }
+        .side-left{
+            margin-top: 4rem;
+            margin-left: 1.07rem;
+            width: 290px;
+            height: 400px;
+        }
+        .side-right{
+            margin-top: 4rem;
+            overflow-x: hidden;
+            overflow-y: auto;
+            height: calc(100vh - 7.5rem);
+        }
+        .img-circle{
+            width: 5rem;
+            height: 3.1rem;
+            background-color: #f7f7f7;
+            border-radius: 50%;
+            border: 1px solid #dddddd;
+        }
+        .online_icon{
+            position: absolute;
+            height: 15px;
+            width:15px;
+            background-color: #4cd137;
+            border-radius: 50%;
+            bottom: 0.2em;
+            right: 0.4em;
+            border:1.5px solid white;
+        }
+        .online{
+            width: 0.5rem;
+            height: 0.5rem;
+            background-color: green;
+            border-radius: 50%
+        }
+        .friend-state{
+            padding: 0.57rem 0.3rem;
+            cursor: pointer;
+            transition: all 0.1s;
+        }
+        .friend-state:hover{
+            background-color: #f7f7f7;
+        }
+
+        .macarte{
+            position: relative;
+
+        }
+         #dlgbox{
+            position: fixed;
+            width: 480px;
+            z-index: 9999;
+            border-radius: 10px;
+            background-color: #7c7d7e;
+         }
+          #dlgheader{
+             background-color:  #6d84db4;
+             color: white;
+             font_size:20px;
+             padding: 10px;
+             margin:10px 10px 0px 10px;  
+          }
+        
+        .coverPic img{
+            height: 300px;
+            top:0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+        }
+       .coverPic img:hover{
+                                                 
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+        }
+
+        .postCard{
+            margin-top: 0px;
+            width: 670px;
+        }
+        .onlineUsersCard{
+            margin-top: 0px;
+            width: 670px;
+        }
+
+        .pubCard{
+            margin-top: 0px;
+            width: 670px; 
+        }
+
+        .questionsDoneCard{
+            margin-top: 0px;
+            width: 670px; 
+        }
+
+       
+
+        
+       @media (max-width:980px){
+           .f-right{
+            display: none;
+           }
+          
+           .f-left{
+            display: none;
+           }
+           
+            .pubCard{
+            width:100%;
+            }
+        }
+        
+        @media (max-width:526px){
+             #username{
+                font-size:16px;
+             }
+            
+        }

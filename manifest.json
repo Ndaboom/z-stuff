@@ -1,0 +1,13 @@
+{
+    "name": "Zungvi social network",
+    "short_name": "Zungvi",
+    "description": "Stay in touch with loved ones and friends",
+    "start_url": "/",
+    "background_color": "#000000",
+    "theme_color": "#0f4a73",
+    "icons": [{
+      "src": "icons/zungvi.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }]
+  }

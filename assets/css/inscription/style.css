@@ -1,0 +1,40 @@
+body,html{
+			margin: 0;
+			background-image: url('../homebackground.jpg');
+			background-size: cover;
+            background-repeat: repeat;
+            height: 100%;
+		}
+
+		.card{
+                 margin-left: auto;
+                 margin-right: auto;
+
+		}
+		.h1{
+			color: white;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		
+		#register_btn2{
+           display: none;
+           visibility: hidden;
+         }
+	@media (max-width:700px){
+           .card{
+             margin-left:auto;
+             margin-right:auto;
+             background-color: #FFF;  
+           }
+           
+            #register_btn2{
+            display: block;
+            visibility: visible; 
+           }
+           
+           #register_btn1{
+             display: none;
+             visibility: hidden;   
+           }
+        }	
